@@ -1,0 +1,36 @@
+create table product
+(
+prdt_id varchar2(50),
+prdt_name varchar2(50),
+prdt_image clob,
+brand_name varchar2(50),
+prdt_color varchar2(50),
+prdt_rate number(36),
+prdt_in_date date,
+prdt_purchased varchar2(50)
+)
+
+
+create table order_details
+(
+order_id varchar2(50),
+prdt_id varchar2(50),
+prdt_name varchar2(50),
+prdt_rate number(36),
+order_date date,
+order_placed varchar2(50),
+cust_id varchar2(50)
+)
+
+create table LOGIN
+(
+user_id varchar2(50),
+user_name varchar2(50),
+user_pwd varchar2(50),
+old_pwd varchar2(50),
+user_address varchar2(50),
+user_emailid varchar2(50),
+mobile_no varchar2(50),
+register_date date,
+last_update date
+)
