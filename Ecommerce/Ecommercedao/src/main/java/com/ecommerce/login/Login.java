@@ -73,12 +73,16 @@ public class Login {
 	public void setMobileNo(String mobileNo) {
 		this.mobileNo = mobileNo;
 	}
+	
+	
 	public LocalDateTime getRegisterDate() {
 		return registerDate;
 	}
+
 	public void setRegisterDate(LocalDateTime registerDate) {
 		this.registerDate = registerDate;
 	}
+
 	public LocalDateTime getLastUpdate() {
 		return lastUpdate;
 	}
