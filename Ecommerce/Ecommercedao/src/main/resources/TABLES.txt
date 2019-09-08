@@ -31,6 +31,6 @@ old_pwd varchar2(50),
 user_address varchar2(50),
 user_emailid varchar2(50),
 mobile_no varchar2(50),
-register_date date,
-last_update date
+register_date Timestamp(6),
+last_update  Timestamp(6)	
 )
