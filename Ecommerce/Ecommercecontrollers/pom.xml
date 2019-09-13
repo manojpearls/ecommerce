@@ -6,4 +6,13 @@
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <artifactId>Ecommercecontrollers</artifactId>
+  <dependencies>
+  	<dependency>
+    	<groupId>com.ecommerce</groupId>
+    	<artifactId>Ecommerceservices</artifactId>
+    	<version>1.0</version>
+	</dependency>
+ 
+  </dependencies>
+  
 </project>
